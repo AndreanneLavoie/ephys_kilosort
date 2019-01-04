@@ -4,7 +4,7 @@ Modification of kilosort based on SKM code. (Thank you!)
 INSATALLATION:
 See kilosort github for detailed installation instruction. It's a real pain to install everything, but worth it.
 
-    TO RUN: 
+   TO RUN: 
 1. Use makeChanMap_SKM.m to make channel map file for any NEW PROBE configuration
     - this will create a file will all channel maps for each probe;
     - set path (in makeChanMap_SKM.m) where ChanMap file will store all the different chanMap files;
