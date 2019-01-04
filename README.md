@@ -20,9 +20,9 @@ See kilosort github for detailed installation instruction. It's a real pain to i
     - location where modified intan data will be stored and location where kilosort generated data will be stored (and used by Phy);
 
 3. Record data using Intan; 
-  - save data in Channel Format (one file per channel); 
-  - save using xxx_ephys in name;
-  - use 30000 as sampling rate;
+    - save data in Channel Format (one file per channel); 
+    - save using xxx_ephys in name;
+    - use 30000 as sampling rate;
 
 4. Run runKiloSort4Intan2
     - it will automatically ask you to select your data; select all relevant channels 0-n at once;
