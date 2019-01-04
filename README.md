@@ -6,14 +6,14 @@ See kilosort github for detailed installation instruction. It's a real pain to i
 
     TO RUN: 
 1. makeChanMap_SKM.m to make channel map file for any NEW PROBE configuration
-- this will create a file will all channel maps for each probe;
-  - set path (in makeChanMap_SKM.m) where ChanMap file will store all the different chanMap files;
-  1.2 to add new configuration look up all pin maps for your probe, amplifier, and any adaptors used; 
+    - this will create a file will all channel maps for each probe;
+    - set path (in makeChanMap_SKM.m) where ChanMap file will store all the different chanMap files;
+    - to add new configuration look up all pin maps for your probe, amplifier, and any adaptors used; 
       figure out the order of each microelectrode;
-  1.3 create a new probe section by copy and pasting; rename this new section to name of new probe configuration;
-  1.4 change the chanMap variable to new map order;
-  1.5 change x and y coordinates as required;
-  1.6 will also need to modify merfeIntanOFPCSystem3.m; add a section with new probe name in order to select the right file;
+    - create a new probe section by copy and pasting; rename this new section to name of new probe configuration;
+    - change the chanMap variable to new map order;
+    - change x and y coordinates as required;
+    - will also need to modify merfeIntanOFPCSystem3.m; add a section with new probe name in order to select the right file;
 
 2. in runKiloSort4Intan2 set path of: 
   2.1 ChanMap file, kilosort, matlab, npy-matlab and config file
