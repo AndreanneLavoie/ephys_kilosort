@@ -6,8 +6,8 @@ See kilosort github for detailed installation instruction. It's a real pain to i
 
     TO RUN: 
 1. makeChanMap_SKM.m to make channel map file for any NEW PROBE configuration
-  a. this will create a file will all channel maps for each probe;
-  b. set path (in makeChanMap_SKM.m) where ChanMap file will store all the different chanMap files;
+- this will create a file will all channel maps for each probe;
+  - set path (in makeChanMap_SKM.m) where ChanMap file will store all the different chanMap files;
   1.2 to add new configuration look up all pin maps for your probe, amplifier, and any adaptors used; 
       figure out the order of each microelectrode;
   1.3 create a new probe section by copy and pasting; rename this new section to name of new probe configuration;
